@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 30px; /* Reduced size */
+    color: #2c3e50;
+    margin-bottom: 15px;
+}
+
+#countdown {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Reduced gap */
+}
+
+.time {
+    font-size: 25px; /* Reduced font size */
+    font-weight: bold;
+    padding: 15px; /* Reduced padding */
+    background-color: #3498db;
+    color: white;
+    border-radius: 10px;
+}
+
+#days, #hours, #minutes, #seconds {
+    min-width: 70px; /* Slightly smaller width */
+    text-align: center;
+}
